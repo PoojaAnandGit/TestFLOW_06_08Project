@@ -7,12 +7,12 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/TestFLOW_06_08Project
   gitUsername: PoojaAnandGit
   gitBranch: main
-- name: packageServiceValidations
+- name: localPkgTest
   gitServerName: test1
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
-- name: localPkgTest
+- name: packageServiceValidations
   gitServerName: test1
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
