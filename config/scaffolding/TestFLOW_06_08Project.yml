@@ -8,12 +8,27 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: localPkgTest
+  version: "1.0"
   gitServerName: test1
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: packageServiceValidations
+  version: 10.15.0.0.674
   gitServerName: test1
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testflow_06_08.integrations:e111
+  packages:
+  - name: TestFLOW_06_08Project
+    version: "1.0"
+  - name: localPkgTest
+    version: "1.0"
+  - name: packageServiceValidations
+    version: 10.15.0.0.674
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1081
