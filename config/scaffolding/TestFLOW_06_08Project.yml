@@ -20,7 +20,7 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 services:
-- serviceName: project.testflow_06_08.integrations:edgeflowww
+- serviceName: project.testflow_06_08.integrations:eeee
   packages:
   - name: TestFLOW_06_08Project
     version: "1.0"
