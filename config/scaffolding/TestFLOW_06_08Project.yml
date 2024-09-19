@@ -20,7 +20,7 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 services:
-- serviceName: project.testflow_06_08.integrations:e111
+- serviceName: project.testflow_06_08.integrations:edgeflowww
   packages:
   - name: TestFLOW_06_08Project
     version: "1.0"
@@ -31,4 +31,4 @@ services:
 - serviceName: pub.date:calculateDateDifference
   packages:
   - name: WmPublic
-    version: 11.1.0.0.1081
+    version: 11.1.0.0.1986
